@@ -1,1 +1,1 @@
-# rsschool-cv
+https://ilyasmorodin.github.io/rsschool-cv/cv
