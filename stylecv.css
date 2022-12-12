@@ -1,0 +1,286 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: rgb(32, 32, 32);
+    color: #ffffff;
+
+    margin-top: 40px;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+a {
+    color:#ffffff;
+    text-decoration: none;
+    
+}
+
+a:hover {
+    text-decoration: underline ;
+}
+
+a:active {
+    color: rgb(16, 40, 61);
+}
+
+
+/* .ava {
+    width: 200px;
+    border-radius: 30px;
+} */
+
+
+
+.info {
+
+    display: flex;
+    margin-bottom: 20px;
+}
+
+@media (max-widht: 700px) {
+    .info{
+        text-align: center;
+        display: block;
+    }
+}
+
+
+.info-text {
+    color: rgb(255, 255, 255);
+    margin-left: 40px;
+}
+
+.info-text h4 {
+    margin-bottom: 10px;
+}
+
+.info p {
+    color: rgb(255, 255, 255);
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+ 
+
+.container {
+max-width: 75%;
+margin: auto;
+padding-top: 30px;
+}
+
+
+.bg-yellow {
+    background: #fff9dc;
+}
+
+.bg-green {
+    background: #e5ffe7;
+}
+
+.bg-red {
+    background: #ffe5e5;
+}
+
+.name1{
+    color: #000;
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 80px;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+ .list {
+     padding: 10px;
+     list-style: disc;
+ }
+ 
+ .list li {
+    margin-left: 20px;
+    padding-left: 20px;
+     color: #000000;
+    
+ }
+
+ .table {
+     padding: 10px;
+     width: 100%;
+ } 
+ .table td {
+     padding-bottom: 10px
+     
+ }
+
+.table td:nth-child(1),
+td:nth-child(2),td:nth-child(3) {
+      color: #000;
+}
+
+.link-list {
+    color: #000000;
+    list-style: none;
+}
+
+.link-list li {
+    color: #000000;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.form-group input {
+
+    border-bottom: 2px;
+    border-radius: 20px;
+   
+}
+
+.form-group textarea {
+
+    border-bottom: 2px;
+    border-radius: 30px;
+    padding: 10px 10px 10px 10px;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+
+}
+
+.row > .form-group {
+width: 40%;
+margin-right: 2px;
+}
+
+.btn {
+    background: #b90707;
+    padding: 15px 20px;
+    color: #ccc;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+    margin-left: 20px;
+    border-radius: 10%;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.hero_box {
+    width: 200px;
+    justify-self: center;
+    overflow: hidden;
+    background-image: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
+    border: 10px solid rgb(53, 53, 53);
+    box-shadow: 2px 5px 10px rgba(0,0,0,0.5);
+
+    animation: ava-animate 5s infinite alternate;
+}
+
+@keyframes ava-animate {
+    0% {
+        border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%  ;
+    }
+    40% {
+        border-radius: 79% 21% 70% 30% / 71% 66% 34% 29% ;
+    }
+    
+    60% {
+        border-radius: 48% 52% 18% 82% / 26% 66% 34% 74% ;
+    }
+    
+    100% {
+        border-radius: 11% 89% 18% 82% / 75% 12% 88% 25%  ;
+    }
+}
+
+.pudge {
+
+   width: 200px;
+   border-radius: 30%;
+   justify-self: center;
+
+}
+ .textpudge {
+    text-align: center;
+    display: block;
+ }
+
+ .box1 {
+     position: fixed;
+     right: 10px;
+     width: 50px;
+     height: 50px;
+     background: #b90707;
+ }
+ 
+
+ /* ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+} */
+.wrapper {
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.header_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.header_list {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.header_items {
+margin-right: 80px;
+}
+
+.header_link {
+    font-size: 20px;
+    line-height: 24px;
+    color: rgb(194, 141, 141);
+    text-decoration: none;
+}
+
+.header_link:hover, .header_link:active {
+    opacity: .75;
+}
+
+.CV {
+    margin-left: 100px;
+}
