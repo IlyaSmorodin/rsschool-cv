@@ -247,6 +247,7 @@ margin-right: 2px;
 }
 
 .header {
+    background-color: #464646;
     position: fixed;
     top: 0;
     left: 0;
@@ -273,7 +274,7 @@ margin-right: 80px;
 .header_link {
     font-size: 20px;
     line-height: 24px;
-    color: rgb(194, 141, 141);
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
@@ -284,3 +285,22 @@ margin-right: 80px;
 .CV {
     margin-left: 100px;
 }
+
+.footer {
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer a img {
+    width: 80px;
+  }
+  .footer__school a img {
+    width: 100px;
+    height: 40px;
+  }
+  .footer__year {
+    opacity: 0.5;
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: bold;
+  }
