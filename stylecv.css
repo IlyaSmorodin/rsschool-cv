@@ -130,6 +130,10 @@ td:nth-child(2),td:nth-child(3) {
     list-style: none;
 }
 
+a:visited {
+    color: rgb(0, 0, 0);
+}
+
 .link-list li {
     color: #000000;
     margin-bottom: 10px;
