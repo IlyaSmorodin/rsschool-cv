@@ -108,9 +108,10 @@ padding-top: 30px;
  }
  
  .list li {
-    margin-left: 20px;
+    text-align: center;
+    display: block;
     padding-left: 20px;
-     color: #000000;
+    color: #000000;
     
  }
 
@@ -311,3 +312,14 @@ margin-right: 80px;
     line-height: 40px;
     font-weight: bold;
   }
+  .widht {
+      box-shadow: 0 0 50px rgb(102, 101, 101);
+    padding: 0 10px 0 10px;
+    background-color: #353535;
+}
+.widht,
+footer {
+    margin: 0 auto;
+    max-width: 80%;
+    min-width: 50%;
+}
