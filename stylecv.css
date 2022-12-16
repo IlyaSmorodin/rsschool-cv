@@ -323,3 +323,8 @@ footer {
     max-width: 80%;
     min-width: 50%;
 }
+ 
+.colorcode {
+    display: block;
+    color: #000000;
+}
