@@ -13,7 +13,7 @@ body {
 }
 
 a {
-    color:#ffffff;
+    color:#000000;
     text-decoration: none;
     
 }
@@ -23,7 +23,7 @@ a:hover {
 }
 
 a:active {
-    color: rgb(16, 40, 61);
+    color: rgb(172, 130, 130);
 }
 
 
@@ -87,6 +87,9 @@ padding-top: 30px;
 }
 
 .name1{
+    justify-content: center;
+    display: flex;
+    align-items: center;
     color: #000;
 }
 
@@ -105,9 +108,10 @@ padding-top: 30px;
  }
  
  .list li {
-    margin-left: 20px;
+    text-align: center;
+    display: block;
     padding-left: 20px;
-     color: #000000;
+    color: #000000;
     
  }
 
@@ -129,6 +133,7 @@ td:nth-child(2),td:nth-child(3) {
     color: #000000;
     list-style: none;
 }
+
 
 .link-list li {
     color: #000000;
@@ -168,7 +173,7 @@ td:nth-child(2),td:nth-child(3) {
 }
 
 .row > .form-group {
-width: 40%;
+width: 20%;
 margin-right: 2px;
 }
 
@@ -247,6 +252,7 @@ margin-right: 2px;
 }
 
 .header {
+    background-color: #464646;
     position: fixed;
     top: 0;
     left: 0;
@@ -273,7 +279,7 @@ margin-right: 80px;
 .header_link {
     font-size: 20px;
     line-height: 24px;
-    color: rgb(194, 141, 141);
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
@@ -283,4 +289,39 @@ margin-right: 80px;
 
 .CV {
     margin-left: 100px;
+}
+
+.footer {
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer a img {
+    width: 80px;
+  }
+  .footer__school a img {
+    width: 100px;
+    height: 40px;
+  }
+  .footer__year {
+    opacity: 0.5;
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: bold;
+  }
+  .widht {
+      box-shadow: 0 0 50px rgb(102, 101, 101);
+    padding: 0 10px 0 10px;
+    background-color: #353535;
+}
+.widht,
+footer {
+    margin: 0 auto;
+    max-width: 80%;
+    min-width: 50%;
+}
+ 
+.colorcode {
+    display: block;
+    color: #000000;
 }
