@@ -13,7 +13,7 @@ body {
 }
 
 a {
-    color:#ffffff;
+    color:#000000;
     text-decoration: none;
     
 }
@@ -23,7 +23,7 @@ a:hover {
 }
 
 a:active {
-    color: rgb(16, 40, 61);
+    color: rgb(172, 130, 130);
 }
 
 
@@ -134,9 +134,6 @@ td:nth-child(2),td:nth-child(3) {
     list-style: none;
 }
 
-a:visited {
-    color: rgb(151, 151, 151);
-}
 
 .link-list li {
     color: #000000;
